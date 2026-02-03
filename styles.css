@@ -91,12 +91,13 @@ body {
     bottom: 20px;
     right: 20px;
     margin-top: 0;
-    opacity: 0.2;
-    transition: opacity 0.3s;
-    transform: scale(0.7);
+    opacity: 0.5;            /* more visible */
+    transition: opacity 0.3s, transform 0.3s;
+    transform: scale(0.9);    /* slightly bigger */
     z-index: 2;
     animation: subtle-hint 2s infinite alternate;
-    animation-delay: 5s;
+    animation-delay: 2s;
+}
 }
 
 .secret-answer .cute-btn {
