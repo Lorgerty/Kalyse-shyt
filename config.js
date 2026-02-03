@@ -28,7 +28,7 @@ const CONFIG = {
             secretAnswer: "You're the greatest"           // Secret hover message
         },
         second: {
-            text: "How much do you fw me?",                          // For the love meter
+            text: "How amazing am I?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next "                                         // Text for the next button
         },
